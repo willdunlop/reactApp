@@ -4,7 +4,7 @@
   "description": "followed from a tutorial found at https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm",
   "main": "index.js",
   "scripts": {
-  	"start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "react-dom": "^15.3.2",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
   }
 }
