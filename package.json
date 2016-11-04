@@ -4,7 +4,7 @@
   "description": "followed from a tutorial found at https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  	"start": "webpack-dev-server --hot"
   },
   "author": "",
   "license": "ISC",
