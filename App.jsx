@@ -4,9 +4,9 @@ class App extends React.Component {
 	render() {
 
 		var someStyle = {
-			border: solid, thick,
-			width: 200,
-			height: auto,
+			border: 'solid',	
+			width:'200px',
+			height: 'auto'
 		}
 
 		return (
@@ -17,10 +17,9 @@ class App extends React.Component {
 					<p> JSX allows you to use javascript logic when it is wrapped in curly braces. For example 1 + 1 = {1+1}</p>
 					<p>Although you cant us if/else statements, ternary/conditional expressions are available {i == 1 ? 'true' : 'false'}</p>
 
-					<p style = {someStyle}>Styling is achieved by setting a variable before the return() section under render and naming using interpolation in the divs style tag</p>
+					<div style = {someStyle}>Styling is achieved by setting a variable before the return() section under render and naming using interpolation in the divs style tag</div>
 
-					{//Comments need to be written with JS interpolation
-					}
+					
 				</div>
 			   );
 	}
